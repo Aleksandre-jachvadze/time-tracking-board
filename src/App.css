@@ -1,10 +1,7 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  transition: transform 0.5s ease-in-out;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,22 +19,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #2d3436;
+  transition: background-color 0.3s ease;
 }
 
 .App-link {
   color: #f39c12;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
 
 .App-link:hover {
   color: #e67e22;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
