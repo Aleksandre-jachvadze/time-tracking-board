@@ -1,18 +1,16 @@
-# Avoid accidental upload of the Sketch and Figma design files
-#####################################################
-## Please do not remove lines 5 and 6 - thanks! 🙂 ##
-#####################################################
-*.sketch
-*.fig
+# ignore design files
+#.sketch
 
-# Avoid accidental XD upload if you convert the design file
-###############################################
-## Please do not remove line 12 - thanks! 🙂 ##
-###############################################
-*.xd
-
-# Avoid your project being littered with annoying .DS_Store files!
+# macOS system files
 .DS_Store
+
+# Ignore dependencies
+node_modules/
+
+# Ignore Prettier config file
 .prettierignore
-node_modules
-design
+
+# Optional: log or temp files
+*.log
+*.tmp
+*.cache
